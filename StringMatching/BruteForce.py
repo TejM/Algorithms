@@ -1,5 +1,5 @@
-"""Finds if substring is present in string, and if
-so the index of the first occurrence.
+"""Brute force algorithm to find if substring is present in a string, and if
+so the index of the first occurrence of substring.
 
 Input: Array of n characters representing text
         Array of m characters reresenting pattern
@@ -15,7 +15,9 @@ def bruteForceStringMatcher(text,pattern):
         if j==len(pattern):
             return i
     return -1
-    
+
+# Test
+
 a = ['a','n','a','p','p','l','e','a','d','a','y','k','e','e','p','s']
 b = ['d','a', 'y']
 c = ['c','r','a','z','y']
